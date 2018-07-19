@@ -1,0 +1,29 @@
+Part 1:
+
+1.	export FIRST_NAME=Hinesh
+2.	echo $FIRST_NAME
+3.	echo $PATH
+4.	The set of paths the terminal uses in order to find commands to execute.
+5.	So that you can easily access them later for use instead of having to write them over and over. You can also easily use them multiple times. 
+6.	You need to add a new export line to the configuration file for the shell (.zshrc in my case).
+7.	A process is any specific running program on the computer.
+8.	Ps -ax
+9.	The unique identifier used to identify processes running on the computer.
+10.	Use the kill or kill -9 command along with the PID.
+11.	Using the -9 flag ensure that the processes you are trying to kill cannot ignore the kill command in cases where kill does not work.
+12.	–i
+13.	–B
+14.	–C
+15.	–A
+16.	–w
+17.	–n
+
+Part 2:
+
+1.	find ~/Desktop –name “learn”
+2.	find ~/Desktop –name “P.*”
+3.	find ~/Desktop –name “*.txt”
+4.	find ~/Desktop/views –name “*data*”
+5.	grep –c “Elie” instructors.txt
+6.	grep –w “P.*” instructors.txt
+7.	grep –in “z.*” instructors.txt

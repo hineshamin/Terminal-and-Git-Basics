@@ -1,0 +1,10 @@
+1.	Removes files that have not been staged yet.
+2.	–d will allow removal of untracked directories in addition to just files without the flag. The –f option allows removal of untracked directories managed by a different git repository. 
+3.	git checkout –b 
+4.	Fast forward merges are ones in which there are no commits made on the original branch while the new branch is worked on. If a fast forward merge cannot be done a recursive one must be.
+5.	git checkout
+6.	git checkout
+7.	git branch –d
+8.	It will show the difference between 2 commits.
+9.	git rm --cached 
+10.	When git does not know which file to commit since different branches have different commits separately
